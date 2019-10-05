@@ -1,0 +1,14 @@
+version: '3.4'
+
+services:
+  logstash:
+    image: logstash-with-mssql-plugin:1.6
+    container_name: logstash
+    ports:
+      - "5001:5001"
+    environment:
+      LS_JAVA_OPTS: "-Xmx256m -Xms256m"
+    volumes:
+      - c:/docker_logstash_volume/pipeline/:/usr/share/logstash/pipeline/
+      - c:/docker_logstash_volume/config/logstash.yml:/usr/share/logstash/config/logstash.yml
+    network_mode: bridge
