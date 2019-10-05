@@ -181,6 +181,7 @@ We will use mainly logstash-input-jdbc plugin. This guy **need driver for connec
 
 First you **can create a folder with name “logstash**”, than inside that folder **create another folder and give name that folder to “jars”** Then **create a file, this file name have to be “Dockerfile”**, you **don’t need an extension for this file** so name it. After that you have seen something like this:
 ![enter image description here](https://i.ibb.co/N3r1GXX/fffff.png)
+
 **Now open Dockerfile using any text editor and start writing.**
 
     FROM docker.elastic.co/logstash/logstash:7.3.1
@@ -233,6 +234,7 @@ Of course, we need expose our ports for accessing Logstash from host computer. Y
 
 Now we are in volume section, this section is critical because we need access some things inside container also need somethings persist (data config etc.) We can use volume section to share data, config etc. between host computer and container. If you in windows you can share your drive inside docker, go to settings->Shared Drivers section and choose your drive.
 ![enter image description here](https://i.ibb.co/z6MpMpr/hhhh.png)
+
 After that explanations now volume section has to be clearer to you. In Logstash container system I believe we should share two section. First is pipeline section which is critical for our data transformation to Elasticsearch, we will put Logstash.config file in here, we will see config file next section 😊 Second one is main config file logstash.yml, not need for this scenario but later more complex scenarios you can be need that file.
 
 Last code is network_mode section, this is critical because we have two other container mssql and elasticseach. We have to communicate these containers so need in bridge network, because docker run command create container in bridge network. Now let’s run our compose file. In command prompt come in “logstash” folder.
