@@ -18,21 +18,29 @@ In many years our search perception change. Now google search or another search 
 
 
 **WHAT IS MICROSOFT SQL**
+
 ![MSSQL LOGO](https://seeklogo.com/images/M/microsoft-sql-server-logo-96AF49E2B3-seeklogo.com.png)
+
 **Microsoft SQL Server is a relational database management system (RDBMS)** that supports a wide variety of transaction processing, business intelligence and analytics applications in corporate IT environments**. Microsoft SQL Server is one of the three market-leading database technologies**, along with Oracle Database and IBM's DB2.  (Rouse, 2019)
 
 Like other RDBMS software, Microsoft SQL Server is built on top of SQL, a standardized programming language that database administrators (DBAs) and other IT professionals use to manage databases and query the data they contain. SQL Server is tied to Transact-SQL (T-SQL), an implementation of SQL from Microsoft that adds a set of proprietary programming extensions to the standard language.  (Rouse, 2019)
 
 **WHAT IS ELASTICSEARCH**
+
 ![Elasticsearchlogo](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbieWRwx1lLXcngMpm-8X_3lGfUeMlgYD8pPGd9TOnC-LrztwEyg)
+
 Elasticsearch is a **distributed, open source search and analytics engine** for all types of data, including textual, numerical, geospatial, structured, and unstructured. Elasticsearch is built on Apache Lucene and was first released in 2010 by Elasticsearch N.V. (now known as Elastic). Known for its **simple REST APIs, distributed nature, speed, and scalability**, Elasticsearch is the central component of the **Elastic Stack, a set of open source tools for data ingestion, enrichment, storage, analysis, and visualization**. Commonly referred to as **the ELK Stack (after Elasticsearch, Logstash, and Kibana),** the Elastic Stack now includes a rich collection of lightweight shipping agents known as Beats for sending data to Elasticsearch.  (Elasticsearch, 2019)
 
 **WHAT IS LOGSTASH**
+
 ![enter image description here](https://i.pinimg.com/originals/8b/29/ff/8b29ff73ef1f198e3598f1214901f323.png)
+
 Logstash is an **open source, server-side data processing pipeline** that ingests data from a multitude of sources simultaneously, transforms it, and then sends it to your favorite "stash."  (Elasticsearch, 2019)
 
 **WHAT IS DOCKER**
+
 ![enter image description here](https://i1.wp.com/securityaffairs.co/wordpress/wp-content/uploads/2019/04/docker-logo-696x364.png?resize=584,305&ssl=1)
+
 **Docker is a tool designed to make it easier to create, deploy, and run applications by using containers**. Containers allow a developer to package up an application with all of the parts it needs, such as libraries and other dependencies, and ship it all out as one package. By doing so, thanks to the container, the developer can rest assured that the application will run on any other Linux machine **(Now they can run Windows machine too and windows containers released)** regardless of any customized settings that machine might have that could differ from the machine used for writing and testing the code.  (Opensource, 2019)
 
 **In a way, Docker is a bit like a virtual machine. But unlike a virtual machine, rather than creating a whole virtual operating system, Docker allows applications to use the same Linux kernel as the system that they're running on and only requires applications be shipped with things not already running on the host computer. This gives a significant performance boost and reduces the size of the application.  (Opensource, 2019)**
